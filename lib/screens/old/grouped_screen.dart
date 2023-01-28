@@ -39,12 +39,13 @@ class _GroupedScreenState extends State<GroupedScreen> {
             height: 700,
             padding: EdgeInsets.only(top: 16, right: 16, left: 16),
             child: ListView.builder(
-              // gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
-              //   crossAxisCount: 2,
-              //   mainAxisSpacing: 8,
-              //   crossAxisSpacing: 8,
-              //   mainAxisExtent: 200,
-              // ),
+              
+              
+              
+              
+              
+              
+
               itemCount: groupedByCategory.length,
               // shrinkWrap: true,
               itemBuilder: (BuildContext context, int index) {
